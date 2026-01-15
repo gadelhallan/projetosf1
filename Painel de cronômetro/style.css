@@ -23,7 +23,7 @@ header {
     margin-bottom: 10px;
 }
 
-.live-indicator {
+.live-indicador {
     background-color: var(--f1-red);
     padding: 2px 8px;
     border-radius: 4px;
