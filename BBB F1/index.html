@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>BBB F1 2026 - Cadillac Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🏁 BBB F1 2026 🏁</h1>
+        <div id="info-temporada">GP 1: Bahrein | Restam 22 Pilotos</div>
+    </header>
+
+    <main>
+        <div class="coluna">
+            <h3>🏠 Na Casa</h3>
+            <ul id="lista-vivos"></ul>
+        </div>
+
+        <div class="coluna central">
+            <button id="btn-simular" onclick="proximaRodada()">Simular Próximo GP</button>
+            <div id="painel-evento">
+                <h3>Último Resultado</h3>
+                <div id="resultado-texto">Clique no botão para começar a temporada!</div>
+            </div>
+            <div id="paredao-box" class="hidden">
+                <h2 style="color: #e74c3c;">🔥 PAREDÃO 🔥</h2>
+                <div id="candidatos-paredao"></div>
+            </div>
+        </div>
+
+        <div class="coluna">
+            <h3>❌ Eliminados</h3>
+            <ul id="lista-eliminados"></ul>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

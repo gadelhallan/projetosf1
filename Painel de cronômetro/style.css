@@ -1,0 +1,48 @@
+:root {
+    --f1-red: #e10600;
+    --f1-black: #15151e;
+    --f1-dark-gray: #1f1f27;
+}
+
+body {
+    background-color: var(--f1-black);
+    color: white;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.f1-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--f1-red);
+    margin-bottom: 10px;
+}
+
+.live-indicator {
+    background-color: var(--f1-red);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 0.8rem;
+}
+
+.driver-card {
+    display: grid;
+    grid-template-columns: 40px 4px 1fr 100px;
+    align-items: center;
+    background-color: var(--f1-dark-gray);
+    margin-bottom: 4px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.pos { font-style: italic; color: #999; }
+.team-stripe { height: 100%; }
+.name { padding-left: 15px; text-transform: uppercase; }
+.gap { text-align: right; font-family: monospace; color: #fff; }
